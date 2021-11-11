@@ -10,3 +10,8 @@ body
   background-size: cover;
   background-position: center;
 }
+.menu-bar
+{
+  background: rgb(0,100,0);
+  text-align: center;
+}
