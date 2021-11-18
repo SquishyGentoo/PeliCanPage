@@ -10,7 +10,6 @@ body
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
-  font-family: arial;
 }
 
 nav
@@ -89,17 +88,6 @@ a:hover:after
 {
   position: absolute;
   /** Makes the video fit the container set above **/
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 100%;
-  width: 100%;
-}
-
-.mapwrapper
-{
-  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
