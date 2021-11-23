@@ -147,9 +147,21 @@ a:hover:after
   min-height: 200px;
 }
 
+.flexbox-item-2-1
+{
+  min-height: 300px;
+  width: 400;
+}
+
 .flexbox-item-3
 {
   min-height: 300px;
+}
+
+.flexbox-item-3-1
+{
+  min-height: 300px;
+  width: 750;
 }
 
 .flexbox-item-3-3
