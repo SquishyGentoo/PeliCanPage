@@ -107,6 +107,20 @@ a:hover:after
   margin-left: 100px;
 }
 
+.flexbox-container2
+{
+  /** can add height: 500px; for bigger container **/
+  height: 800;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /** or center **/
+  align-items: center;
+  margin: 200px auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 .flexbox-item
 {
   width: 300px;
@@ -122,6 +136,12 @@ a:hover:after
   min-height: 100px;
 }
 
+.flexbox-item-1-1
+{
+  min-height: 100px;
+  width: 600;
+}
+
 .flexbox-item-2
 {
   min-height: 200px;
@@ -130,6 +150,14 @@ a:hover:after
 .flexbox-item-3
 {
   min-height: 300px;
+}
+
+.flexbox-item-3-3
+{
+  min-height: 300px;
+  width: 1500;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 /** 
