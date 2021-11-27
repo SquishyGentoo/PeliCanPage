@@ -136,7 +136,7 @@ a:hover:after
   min-height: 100px;
 }
 
-.flexbox-item-1-1
+.flexbox-item-1-map
 {
   min-height: 100px;
   width: 600;
@@ -164,16 +164,44 @@ a:hover:after
   width: 750;
 }
 
-.flexbox-item-3-3
+.flexbox-item-3-map
 {
+  background-image: url(google_map.jpg);
   min-height: 300px;
   width: 1500;
   flex-basis: 0;
   flex-grow: 1;
 }
+
+.flexbox-item-description
+{
+  float: right;
+  min-height: 600px;
+  width: 500;
+}
+
+.flexbox-item-info
+{
+  min-height: 300px;
+  width: 400px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .user {
         float: right;
 }
+
+.map
+{
+  display: flex;
+}
+
+
+
+
+
 /** 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀
