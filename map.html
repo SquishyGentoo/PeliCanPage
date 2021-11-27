@@ -2,6 +2,7 @@
   <head>
     <title>PeliCan</title>
     <link href="style.css" rel="stylesheet">
+    <link href="style_text.css" rel ="stylesheet">
   </head>
   <body>
     <header>
@@ -20,8 +21,34 @@
       </nav>
     </header>
     <div class="flexbox-container2">
-      <div class="flexbox-item flexbox-item-1-1"></div>
-      <div class="flexbox-item flexbox-item-3-3"></div>
+      <div class="flexbox-item flexbox-item-1-map">
+        <h1>Enter Your Location</h1>
+        <input></input>
+      </div>
+      
+      <div class="flexbox-item flexbox-item-3-map">
+        <div class="flexbox-item flexbox-item-description">
+          <h1 class="loc-name">(Location Name)</h1>
+          <hr/>
+          <br/>
+          <article>
+
+            <section>
+              <img class="loc-image" src="food_bank.jpg">
+            </section>
+
+            <section>
+              <div class="flexbox-item flexbox-item-info">
+                <br/><br/><br/><br/>
+                <h1 class="loc-disc">Description</h1>
+                <button class="page-button" type="button" onclick="alert('Goes to Location Webpage')">Website</button>
+                <button class="dir-button" type="button" onclick="alert('Brings Up Google Maps Directions')">Directions</button>
+              </div>
+            </section>
+
+          </article>
+        </div>
+      </div>
     </div>
   </body>
 </html>
