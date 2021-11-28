@@ -1,0 +1,85 @@
+*
+{
+  padding:0;
+  margin:0;
+}
+
+.flexbox-container-news
+{
+  height: 800;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 40px auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.news-label-text
+{
+    margin: 30px;
+    text-align: center;
+}
+
+.news-lable
+{
+    min-height: 100px;
+    width: 500px;
+}
+
+.news-content
+{
+    min-height: 765px;
+    width: 500px;
+}
+
+.articles
+{
+    min-height: 115px;
+    width: auto;
+}
+
+.charities
+{
+    min-height: 200px;
+    width: auto;
+}
+
+.events
+{
+    min-height: 300px;
+    width: auto;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 314px;
+    height: 174px;
+}
+
+p
+{
+    text-align: center;
+    font-size: 24px;
+}
+
+.site-button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
