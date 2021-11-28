@@ -9,6 +9,18 @@ h1
     text-align: center;
 }
 
+.welcome-text
+{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 50px;
+    color: crimson;
+    background-color: darkblue;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 2px 2px yellow;
+}
+
 input
 {
     width: 100%;
