@@ -109,14 +109,26 @@ a:hover:after
 
 .flexbox-container2
 {
-  /** can add height: 500px; for bigger container **/
   height: 800;
   background-color: blue;
   display: flex;
   flex-direction: column;
-  justify-content: center; /** or center **/
+  justify-content: center;
   align-items: center;
   margin: 200px auto;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.flexbox-container-events
+{
+  height: 800;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 75px auto;
   margin-right: 100px;
   margin-left: 100px;
 }
